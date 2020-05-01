@@ -11,30 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electrical Engineering, Shandong University, 2017
+* M.S. in Electrical and Computer Engineering, University of Wisconsin-Madison, 2019
+* Ph.D in Computer Science, University of Illinois at Chicago, 2025 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Teaching Assistant
+  * University of Wisconsin-Madison
+  * TA for CS 252: Introduction to Computer Engineering and ECE 271: Circuits Laboratory II. Basic responsibilities include designing and grading homework and exams, leading discussion sessions, tutorial sessions, and lab sessions, answering Piazza questions, hosting office hours weekly, and proctoring exams
+  * Supervisor: Adil Ibrahim
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Machine Learning Research Intern
+  * American Family Insurance
+  * Developed the IGLUE benchmark to create a reliable metric for language models’ performance in insurance literature. Trained language models for retrieval-based chatbots to bring better customer service. Developed multitask training methods to create language models with significantly better performance. Created a language model with 0.6 percent boost on IGLUE score by pretraining Google’s BERT model with claims notes data. Created quality datasets from raw text data with Amazon Athena for fine-tuning language models.
+  * Supervisor: Glenn Fung
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning
+* Optimization
+* Python
 
 Publications
 ======
@@ -54,6 +51,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

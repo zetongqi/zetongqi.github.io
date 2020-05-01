@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Adversarial VC-dimension and Sample Complexity of Neural Networks"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/advVCdim
+excerpt: 'This paper discussed the effect of adversarial samples during test time on neural networks' adversarial VC dimensions'
+date: 2019-12-18
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/pdf/1912.08865.pdf'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+Adversarial attacks during the testing phase of neural networks pose a challenge for the deployment of neural networks in security critical settings. These attacks can be performed by adding noise that is imperceptible to humans on top of the original data. By doing so, an attacker can create an adversarial sample, which will cause neural networks to misclassify. In this paper, we seek to understand the theoretical limits of what can be learned by neural networks in the presence of an adversary. We first defined the hypothesis space of a neural network, and showed the relationship between the growth number of the entire neural network and the growth number of each neuron. Combine that with the adversarial Vapnik-Chervonenkis(VC)-dimension of halfspace classifiers, we concluded the adversarial VC-dimension of the neural networks with sign activation functions.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](https://arxiv.org/pdf/1912.08865.pdf)

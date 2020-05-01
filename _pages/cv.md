@@ -27,6 +27,10 @@ Work experience
   * Developed the IGLUE benchmark to create a reliable metric for language models’ performance in insurance literature. Trained language models for retrieval-based chatbots to bring better customer service. Developed multitask training methods to create language models with significantly better performance. Created a language model with 0.6 percent boost on IGLUE score by pretraining Google’s BERT model with claims notes data. Created quality datasets from raw text data with Amazon Athena for fine-tuning language models.
   * Supervisor: Glenn Fung
   
+* Data Analyst
+  * Zeno Group
+  * Implemented data visualizations using Python and D3 to create intuitive, easy to understand, and interactive topline reports. Unbiasing data to create more general and representative datasets. Cleaning raw data with Python to create quality datasets
+  
 Skills
 ======
 * Machine Learning

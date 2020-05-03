@@ -1,5 +1,5 @@
 ---
-title: "ECE271: Circuits Laboratory II"
+title: "ECE 271: Circuits Laboratory II"
 collection: teaching
 type: "Undergraduate ECE Lab"
 permalink: /teaching/course2

@@ -126,3 +126,5 @@ plt.legend(['Euclidean distance', 'Tangent distance'])
 
 
 
+
+

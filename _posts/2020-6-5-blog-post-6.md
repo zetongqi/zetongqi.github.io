@@ -10,7 +10,7 @@ tags:
 
 In kernel SVM, most kernel functions relies on some distance metric. A commonly used distance metric is the Euclidean distance. However in fields like pattern recognition, Euclidean distance is not robust to simple transformations that don't change the class label: rotation, translation and scaling. For example:
 
-<br/><img src='/images/blog_post_images/euclidean_dist_nonrobust.png'>
+<br/><img src='/images/blog_post_images/euclidean_dist_nonrobust.png' width="200">
 
 According to Euclidean distance B is closer than A. A better distance metric would argue that A is closer than B. Distance metrics that are robust to invariances that don't alter class labels are extremely important to distance-based classifiers like nearest neighbor classifier and support vector machines.
 
@@ -18,7 +18,7 @@ When pattern $P$ is transformed with a transformation $s$ that depends on a para
 
 Therefore, an invariant distance metric should measure the minimum distance between the two manifolds formed by their respective set of all transformed points $S_P$. However, the minimum distance between two manifolds is hard to calculate, therefore we will approximate that distance using the tangent distance. To summerize: we will approximate the distance betwenn two manifolds induced by point $x$ and $x'$ using x's distance to the tangent line of the manifold induced by $x'$ at x'. To illustrate this in picture:
 
-<br/><img src='/images/blog_post_images/tangent_dist.png'>
+<br/><img src='/images/blog_post_images/tangent_dist.png' width="200">
 
 The dash line is the tangent distance. The illustrated distance, called a one sided tangent distance, is obtained through the following optimization problem:
 
@@ -28,7 +28,7 @@ where $L$ is the tangent line of the manifold induced by $x$ at point $x$ and is
 
 You might notice that this distance is not symmetric, we can define a symmetric version using $d_{1S}(x, x')$: $d_{MN}(x, x') := \sqrt{\frac{1}{2} (d_{1S}^2(x, x')} + d_{1S}^2(x', x))$, which is called the square of the mean tangent distance. The symmetric tangent distance is illustrated below:
 
-<br/><img src='/images/blog_post_images/mean_td.png'>
+<br/><img src='/images/blog_post_images/mean_td.png' width="200">
 
 Tangent distance is not an actual distance metric like the Euclidean distance since it doesn't satisfy the trianglar ineuqality.
 
@@ -105,7 +105,7 @@ plt.plot(x_rag, euclidean_dist, color="black", marker="*")
 plt.legend(['Euclidean distance', 'Tangent distance'])
 ```
 
-<br/><img src='/images/blog_post_images/euclidean_vs_tangent.png'>
+<br/><img src='/images/blog_post_images/euclidean_vs_tangent.png' width="200">
 
 We can see that the Tangent distance are relatively more robust to rotations. Also, with the tangent vector $L$, we can simply achieve the rotation of an image $x$ by adding $\beta L$ where $\beta$ is some constant that determines how much rotation is performed:
 
@@ -120,11 +120,11 @@ img = img.convert('RGB')
 imshow(img)
 ```
 
-<br/><img src='/images/blog_post_images/3_rotate_left.png' width="48">
+<br/><img src='/images/blog_post_images/3_rotate_left.png' width="80">
 
 And setting $\beta = -5$ will cause the image to rotate right:
 
-<br/><img src='/images/blog_post_images/3_rotate_right.png' width="48">
+<br/><img src='/images/blog_post_images/3_rotate_right.png' width="80">
 
 While the original image looks like this:
 
@@ -134,7 +134,7 @@ img = img.convert('RGB')
 imshow(img)
 ```
 
-<br/><img src='/images/blog_post_images/3_original.png' width="48">
+<br/><img src='/images/blog_post_images/3_original.png' width="80">
 
 How is 
 

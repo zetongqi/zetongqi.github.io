@@ -82,12 +82,12 @@ def rotate_image(image, angle):
     return result
 ```
 
-now we can compare the effects of rotations on Euclidean distance and Tangent distance:
+now we can compare the effects of rotations on Euclidean distance and tangent distance:
 
 ```python
 tanh_dist = []
 euclidean_dist = []
-rotation_max = 45
+rotation_max = 30
 for i in range(-rotation_max, rotation_max, 5):
     x = trainX[12]
     xr = rotate_image(x, -i)
@@ -107,8 +107,32 @@ plt.legend(['Euclidean distance', 'Tangent distance'])
 
 <br/><img src='/images/blog_post_images/euclidean_vs_tangent.png'>
 
+We can see that the Tangent distance are relatively more robust to rotations. Also, with the tangent vector $L$, we can simply achieve the rotation of an image $x$ by adding $\beta L$ where $\beta$ is some constant that determines how much rotation is performed:
 
+```python
+p = rotation_deritavtive(x)
+p = p.reshape(28, 28)
+beta = 5
+p = x*255 + beta*p*255
 
+img = Image.fromarray(p)
+img = img.convert('RGB')
+imshow(img)
+```
+
+<br/><img src='/images/blog_post_images/3_rotate_left.png'>
+
+And setting $\beta = -5$ will cause the image to rotate right:
+
+<br/><img src='/images/blog_post_images/3_rotate_right.png'>
+
+While the original image looks like this:
+
+```python
+img = Image.fromarray(x*255)
+img = img.convert('RGB')
+imshow(img)
+```
 
 
 

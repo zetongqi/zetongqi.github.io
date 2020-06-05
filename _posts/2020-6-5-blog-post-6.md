@@ -14,7 +14,7 @@ In kernel SVM, most kernel functions relies on some distance metric. A commonly 
 
 According to Euclidean distance B is closer than A. A better distance metric would argue that A is closer than B. Distance metrics that are robust to invariances that don't alter class labels are extremely important to distance-based classifiers like nearest neighbor classifier and support vector machines.
 
-When pattern $P$ is transformed with a transformation $s$ that depends on a parameter $\alpha$ (e.g. rotation of the angle, step of the translation, of the magnitude of the scaling), the set of all transformed points $S_P = \{ x \vert \forall \vec{\alpha} such that x = s(\vec{\alpha}, P)\}$ where $s(\vec{\alpha}, P)$ defines a differentiable tranformation, form a manifold in vector space of the inputs. Note that $s(0, x) = x$.
+When pattern $P$ is transformed with a transformation $s$ that depends on a parameter $\alpha$ (e.g. rotation of the angle, step of the translation, of the magnitude of the scaling), the set of all transformed points $S_P = \{ x \vert \forall \vec{\alpha} s.t. x = s(\vec{\alpha}, P) \} $ where $s(\vec{\alpha}, P)$ defines a differentiable tranformation, form a manifold in vector space of the inputs. Note that $s(0, x) = x$.
 
 Therefore, an invariant distance metric should measure the minimum distance between the two manifolds formed by their respective set of all transformed points $S_P$. However, the minimum distance between two manifolds is hard to calculate, therefore we will approximate that distance using the tangent distance. To summerize: we will approximate the distance betwenn two manifolds induced by point $x$ and $x'$ using x's distance to the tangent line of the manifold induced by $x'$ at x'. To illustrate this in picture:
 

@@ -120,11 +120,11 @@ img = img.convert('RGB')
 imshow(img)
 ```
 
-<br/><img src='/images/blog_post_images/3_rotate_left.png'>
+<br/><img src='/images/blog_post_images/3_rotate_left.png' width="48">
 
 And setting $\beta = -5$ will cause the image to rotate right:
 
-<br/><img src='/images/blog_post_images/3_rotate_right.png'>
+<br/><img src='/images/blog_post_images/3_rotate_right.png' width="48">
 
 While the original image looks like this:
 
@@ -134,7 +134,9 @@ img = img.convert('RGB')
 imshow(img)
 ```
 
-<br/><img src='/images/blog_post_images/3_original.png'>
+<br/><img src='/images/blog_post_images/3_original.png' width="48">
+
+How is 
 
 
 

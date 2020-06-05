@@ -134,6 +134,7 @@ img = img.convert('RGB')
 imshow(img)
 ```
 
+<br/><img src='/images/blog_post_images/3_original.png'>
 
 
 

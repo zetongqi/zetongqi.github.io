@@ -136,7 +136,7 @@ imshow(img)
 
 <br/><img src='/images/blog_post_images/3_original.png' width="80">
 
-How is the tangent distance incorperated in kernel machines? For a tangent distance kernel using the Guassian kernel function: $k(x, x') = exp(-\frac{1}{2 \epsilon^2} {\lVert x-y \rVert}^2)$, just simply replace the Euclidean distance $\lVert \cdot \rVert$ with the tangent distance: $d_{MN}(x, x')$. [Haasdonk et.al.](http://www.kernel-machines.org/papers/upload_12617_TD-SVM.pdf) showed that a tangent distance kernel machine with seven tangent directions: x,y-translation, scaling, rotation, line thick- ening and two hyperbolic transformations achieved $2.4%$ error rate on USPS digits dataset, where human performance is $2.5%$ error rate.
+How is the tangent distance incorperated in kernel machines? For a tangent distance kernel using the Guassian kernel function: $k(x, x') = exp(-\frac{1}{2 \epsilon^2} {\lVert x-x' \rVert}^2)$, just simply replace the Euclidean distance $\lVert \cdot \rVert$ with the tangent distance: $d_{MN}(x, x')$. [Haasdonk et.al.](http://www.kernel-machines.org/papers/upload_12617_TD-SVM.pdf) showed that a tangent distance kernel machine with seven tangent directions: x,y-translation, scaling, rotation, line thick- ening and two hyperbolic transformations achieved $2.4%$ error rate on USPS digits dataset, where human performance is $2.5%$ error rate.
 
 Thank you for reading!
 

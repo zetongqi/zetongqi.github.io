@@ -26,7 +26,7 @@ $$d_{1S}(x, x') := \min_{\vec{\alpha}} \lVert x+\sum_{i=1}^l \alpha_i L_i - x' \
 
 where $L$ is the tangent line of the manifold induced by $x$ at point $x$ and is defined mathematically as: $L = \left.\frac{\partial s(\vec{\alpha}, x)}{\partial \vec{\alpha}}\right \vert_{\vec{\alpha}=0}$
 
-You might notice that this distance is not symmetric, we can define a symmetric version using $d_{1S}(x, x')$: $d_{MN}(x, x') := \sqrt{\frac{1}{2} (d_{1S}^2(x, x')} + d_{1S}^2(x', x))$, which is called the square of the mean tangent distance. The symmetric tangent distance is illustrated below:
+You might notice that this distance is not symmetric, we can define a symmetric version using $d_{1S}(x, x')$: $d_{MN}(x, x') := \sqrt{\frac{1}{2} (d_{1S}^2(x, x') + d_{1S}^2(x', x))}$, which is called the square of the mean tangent distance. The symmetric tangent distance is illustrated below:
 
 <br/><img src='/images/blog_post_images/mean_td.png' width="400">
 

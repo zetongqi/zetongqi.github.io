@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in Electrical Engineering, Shandong University, 2017
-* M.S. in Electrical and Computer Engineering, University of Wisconsin-Madison, 2019
 * Ph.D in Computer Science, University of Illinois at Chicago, 2025 (expected)
+* M.S. in Electrical and Computer Engineering, University of Wisconsin-Madison, 2019
+* B.S. in Electrical Engineering, Shandong University, 2017
+
 
 Work experience
 ======

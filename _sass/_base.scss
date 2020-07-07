@@ -7,6 +7,25 @@ html {
   min-height: 100%;
 }
 
+@font-face {
+    font-family: 'Krupper';
+    src: url('Krupper.woff2') format('woff2'),
+        url('Krupper.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Federation';
+    src: url('FederationTNGTitle.woff2') format('woff2'),
+        url('FederationTNGTitle.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
   margin: 0;
   padding: 0;

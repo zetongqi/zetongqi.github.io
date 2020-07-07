@@ -14,7 +14,7 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Krupper;
-$sans-serif                 : Federation;
+$sans-serif                 : Krupper;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -29,8 +29,8 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 $global-font-family         : Krupper;
-$header-font-family         : Federation;
-$caption-font-family        : Federation;
+$header-font-family         : Krupper;
+$caption-font-family        : Krupper;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in [Computer Science](https://cs.uic.edu/) at [University of Illinois at Chicago](https://www.uic.edu/). I obtained my M.S. degree in [Electrical and Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/) from [University of Wisconsin-Madison](https://www.wisc.edu/) and my B.E. degree from [Shandong University](https://en.sdu.edu.cn/).
+I am a Ph.D. student in [Computer Science](https://cs.uic.edu/) at [University of Illinois at Chicago](https://www.uic.edu/). My advisor is Professor [Xinhua Zhang](https://www.cs.uic.edu/~zhangx/). I obtained my M.S. degree in [Electrical and Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/) from [University of Wisconsin-Madison](https://www.wisc.edu/) and my B.E. degree from [Shandong University](https://en.sdu.edu.cn/).
 
 Research Interests
 ======

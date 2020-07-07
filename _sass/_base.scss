@@ -9,8 +9,8 @@ html {
 
 @font-face {
     font-family: 'Krupper';
-    src: url('Krupper.woff2') format('woff2'),
-        url('Krupper.woff') format('woff');
+    src: url('../fonts/Krupper.woff2') format('woff2'),
+        url('../fonts/Krupper.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@ html {
 
 @font-face {
     font-family: 'Federation';
-    src: url('FederationTNGTitle.woff2') format('woff2'),
-        url('FederationTNGTitle.woff') format('woff');
+    src: url('../fonts/FederationTNGTitle.woff2') format('woff2'),
+        url('../fonts/FederationTNGTitle.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
